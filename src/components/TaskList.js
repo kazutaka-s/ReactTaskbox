@@ -77,6 +77,7 @@ export default connect(
     onPinTask: id => dispatch(pinTask(id)),
   })
 )(PureTaskList);
+
 /*
 export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     const events = {
